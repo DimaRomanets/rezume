@@ -4,157 +4,218 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Шрифт ROBOTO -->
-
-    <!-- Шрифт Raleway ExtraBold -->
-
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>Main Page</Main></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css " />
+    <title>Me resume</title>
   </head>
+
   <body>
-    <!-- Шапка сторінки -->
-    <header>
-      <nav>
-        <!-- Логотип -->
-        <a href="./index.html">WebStudio</a>
-        <!-- Навігація на інші сторінки -->
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
-        </ul>
-      </nav>
+    <!-- Wrapper -->
+    <div class="wrapper">
+      <!-- Main content -->
+      <div class="main-content">
+        <!-- About me -->
+        <div class="about-me-container">
+          <h2 class="my-professin">Front-End Developer</h2>
+          <h1 class="my-name">Romanets Dmytro</h1>
 
-      <address>
-        <ul>
-          <!-- Посилання на адресу електронної пошти  -->
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <!-- Посилання на телефонний номер -->
-          <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
-    </header>
-    <!-- Унікальний контент сторінки -->
-    <main>
-      <!-- Hero з кнопкою -->
+          <p class="my-descr">
+            It is important not to stop before any difficulties, because after
+            passing them you become stronger. Always remain human and try to
+            understand others. Do not leave friends in trouble. These are the
+            theses with which I walk through life.
+          </p>
+        </div>
 
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
-      </section>
+        <!-- My projects -->
 
-      <!-- Секція 1 чотири абзаци -->
+        <div class="project-container">
+          <h3 class="main-content-title">Projects</h3>
 
-      <section>
-        <h2>Information</h2>
-        <!-- Перший абзац -->
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
+          <ol class="project-list">
+            <li class="project-item">
+              <a
+                href="https://serg1853.github.io/project_team-6/"
+                target="_blank"
+                class="project-item-link"
+                >https://serg1853.github.io/project_team-6/</a
+              >
+              <span class="project-item-descr"
+                >........................................[ HTML5, CSS3 ]</span
+              >
+            </li>
+            <li class="project-item">
+              <a
+                href="https://dimaromanets.github.io/goit-markup-hw-07/"
+                target="_blank"
+                class="project-item-link"
+                >https://dimaromanets.github.io/goit-markup-hw-07/</a
+              >
+              <span class="project-item-descr"
+                >...............[ HTML5, CSS3 ]</span
+              >
+            </li>
+          </ol>
+        </div>
+
+        <!-- Work experiens -->
+        <div class="work-experiens-container">
+          <h3 class="main-content-title">Work Experience</h3>
+          <!-- Company 1 -->
+          <div class="work-experiens-place">
+            <h4 class="work-experiens-position">
+              Front-End Developer
+              <span class="work-experiens-company">Freelance</span>
+            </h4>
+            <p class="work-period">
+              September 2019 - up to now
+              <span class="work-period-position">|</span>
+              Country
             </p>
-          </li>
+            <ul class="work-duties-list">
+              <li class="work-duties">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </li>
 
-          <!-- Другий абзац -->
-          <li>
-            <h3>Punctuality</h3>
-            <p>
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
+              <li class="work-duties">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+              <li class="work-duties">Risus commodo viverra maecenas.</li>
+              <li class="work-duties">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod.
+              </li>
+            </ul>
+          </div>
+          <!-- Compani 2 -->
+          <div class="work-experiens-place">
+            <h4 class="work-experiens-position">
+              Manager
+              <span class="work-experiens-company">Banderogusak & Co.</span>
+            </h4>
+            <p class="work-period">
+              March 2015 - October 2018
+              <span class="work-period-position">|</span>
+              Country
             </p>
-          </li>
-
-          <!-- Третій абзац -->
-          <li>
-            <h3>Diligence</h3>
-            <p>
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
+            <ul class="work-duties-list">
+              <li class="work-duties">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod labore et dolore magna aliqua.
+              </li>
+              <li class="work-duties">
+                Quis ipsum suspendisse ultrices gravida.
+              </li>
+              <li class="work-duties">Risus commodo viverra maecenas.</li>
+            </ul>
+          </div>
+          <!-- Company 3 -->
+          <div>
+            <h4 class="work-experiens-position">
+              Manager
+              <span class="work-experiens-company">BestUA Corp.</span>
+            </h4>
+            <p class="work-period">
+              June 2014 - February 2015
+              <span class="work-period-position">|</span>
+              Country
             </p>
-          </li>
-
-          <!-- Четвертий абзац -->
-          <li>
-            <h3>Technologies</h3>
-            <p>
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
+            <ul class="work-duties-list">
+              <li class="work-duties">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+              <li class="work-duties">
+                Quis ipsum suspendisse ultrices gravida.
+              </li>
+              <li class="work-duties">Risus commodo viverra maecenas.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Education -->
+        <div class="education">
+          <div>
+            <h3 class="main-content-title">Education</h3>
+            <h4 class="work-education">Lutsk National Technical University</h4>
+            <h5 class="profession">Civilian safety (master's)</h5>
+            <p class="work-period-school">
+              September 2014 - December 2019
+              <span class="work-period-position">|</span>
+              Country
             </p>
-          </li>
-        </ul>
-      </section>
+          </div>
+        </div>
+      </div>
 
-      <!-- Секція 2 -->
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <img
+          src="./img/Dmytro_Romanets.jpg"
+          alt="My photo"
+          width="370"
+          class="my-photo"
+        />
 
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
-          <li>
-            <img src="./images/img1.jpg" alt="computer monitor" width="360" />
-          </li>
-          <li>
-            <img src="./images/img2.jpg" alt="phone" width="360" />
-          </li>
-          <li>
-            <img src="./images/img3.jpg" alt="phone and computer" width="360" />
-          </li>
-        </ul>
-      </section>
+        <!-- Contacts -->
+        <div class="contacts-container">
+          <h3 class="sidebar-title">Contacts</h3>
+          <p class="contacts-item">
+            <span class="contacts-type">C: </span>
+            <a href="tel:+48886486545" class="contacts-number"
+              >+48 886 486 545</a
+            >
+          </p>
+          <p class="contacts-item">
+            <span class="contacts-type">E: </span>
+            <a href="mailto:dima.romanets97@gmail.com" class="contacts-email"
+              >dima.romanets97@gmail.com</a
+            >
+          </p>
+        </div>
 
-      <!-- Секція 3 -->
+        <!-- Tech skills -->
+        <div class="tech-skills-container">
+          <h3 class="sidebar-title">Tech Skills</h3>
+          <ul class="skills-list">
+            <li class="skills-list-item">
+              <span class="skills-list-text">HTML5</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">CSS3</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">GIT</span>
+            </li>
+          </ul>
+        </div>
 
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/MarkGuerrero.jpg"
-              alt="Mark Guerrero"
-              width="264"
-            />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
-          </li>
-          <li>
-            <img src="./images/TomFord.jpg" alt="Tom Ford" width="264" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="./images/CamilaGarcia.jpg"
-              alt="Camila Garcia"
-              width="264"
-            />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/DanielWilson.jpg"
-              alt="Daniel Wilson"
-              width="264"
-            />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
-          </li>
-        </ul>
-      </section>
-    </main>
-
-    <!-- Підвал сторінки -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
-    </footer>
+        <!-- Soft Skills -->
+        <div class="soft-skills-container">
+          <h3 class="sidebar-title">Soft Skills</h3>
+          <ul class="soft-skills-list">
+            <li class="soft-skills-list-item">
+              <span class="soft-skills-list-text">Punctual </span>
+            </li>
+            <li class="soft-skills-list-item">
+              <span class="soft-skills-list-text">broad-minded</span>
+            </li>
+            <li class="soft-skills-list-item">
+              <span class="soft-skills-list-text">team work</span>
+            </li>
+            <li class="soft-skills-list-item">
+              <span class="soft-skills-list-text">ability to concentrate</span>
+            </li>
+            <li class="soft-skills-list-item">
+              <span class="soft-skills-list-text">logical thinking</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
   </body>
 </html>
