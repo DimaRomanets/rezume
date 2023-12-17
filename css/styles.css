@@ -1,6 +1,6 @@
  body {
      font-family: 'Montserrat', sans-serif;
-     background-color: #E5E5E5;
+     background-color: #bfbaba;
      padding-top: 40px;
      padding-bottom: 40px;
      padding-left: 40px;
@@ -42,9 +42,9 @@
  .my-professin {
      font-style: normal;
      font-weight: 700;
-     font-size: 14px;
+     font-size: 30px;
      line-height: 17px;
-     color: #000000;
+     color: #2763efaa;
      margin: 0 0 18px 0;
  }
 
@@ -211,12 +211,14 @@
 
  .sidebar {
      width: 370px;
-     background: #d6e4ef;
+     background: #b6dcf9;
 
  }
 
  .my-photo {
-     margin-top: 40px;
+   
+    border-radius: 20px;
+     margin-top: 15px;
  }
 
  .contacts-container,
@@ -229,6 +231,10 @@
 
  }
 
+ .languages{
+    margin-bottom: 40px;
+ }
+ 
  .sidebar-title {
      font-style: normal;
      font-weight: 700;
@@ -279,7 +285,7 @@
  }
 
  .skills-list-item {
-     color: #6D9BF5;
+    color: #0a57f3;
  }
 
  .skills-list-text {
@@ -298,7 +304,7 @@
  }
 
  .soft-skills-list-item {
-     color: #6D9BF5
+     color: #0a57f3;
  }
 
  .soft-skills-list-text {
